@@ -1,49 +1,76 @@
 # 🖥️ PC Hardware Lab
 
-A hands-on documentation project focused on understanding computer hardware, system components, BIOS/UEFI, and basic hardware troubleshooting.
+![Windows](https://img.shields.io/badge/OS-Windows%2011-blue)
+![Project](https://img.shields.io/badge/Project-PC%20Hardware%20Lab-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Documentation](https://img.shields.io/badge/Documentation-Available-orange)
+![License](https://img.shields.io/badge/License-Educational-lightgrey)
 
-This repository documents the inspection and analysis of a real Windows computer and demonstrates practical knowledge relevant to IT support and computer hardware.
-
----
-
-## 🎯 Project Objectives
-
-- Understand the main components of a personal computer.
-- Analyze hardware information using Windows tools.
-- Learn the PC boot process.
-- Explore BIOS/UEFI configuration.
-- Practice technical documentation.
-- Build a portfolio project for an IT apprenticeship (Ausbildung).
+A hands-on hardware documentation project focused on computer components, Windows system analysis, BIOS/UEFI, and hardware inspection. This repository demonstrates practical IT support knowledge through real hardware analysis and technical documentation.
 
 ---
 
-## 🛠️ Hardware Specifications
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Project Objectives](#-project-objectives)
+- [Hardware Specifications](#-hardware-specifications)
+- [Topics Covered](#-topics-covered)
+- [Project Structure](#-project-structure)
+- [Hardware Inspection](#-hardware-inspection)
+- [Documentation](#-documentation)
+- [Screenshots](#-screenshots)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
+
+---
+
+# 📖 Overview
+
+This project documents the inspection of a real Windows computer using built-in diagnostic tools. The goal is to understand modern computer hardware, identify system components, document technical information professionally, and develop practical skills relevant to IT Support and IT-Systemelektroniker training.
+
+---
+
+# 🎯 Project Objectives
+
+- Learn computer hardware fundamentals
+- Inspect real hardware components
+- Analyze Windows system information
+- Understand BIOS / UEFI
+- Document hardware professionally
+- Build an IT portfolio project
+
+---
+
+# 💻 Hardware Specifications
 
 | Component | Details |
 |-----------|----------|
 | CPU | Intel Core i5-8265U |
-| RAM | 16 GB |
+| RAM | 16 GB DDR4 |
 | Storage | Samsung SSD |
 | Operating System | Windows 11 |
-| BIOS | HP BIOS |
+| Firmware | HP BIOS / UEFI |
 
 ---
 
-## 📚 Topics Covered
+# 📚 Topics Covered
 
 - CPU
 - RAM
 - Storage Devices
 - BIOS / UEFI
+- Boot Process
 - Windows System Information
-- Computer Boot Process
 - Hardware Documentation
+- Basic Hardware Troubleshooting
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 pc-hardware-lab/
 │
 ├── README.md
@@ -57,72 +84,108 @@ pc-hardware-lab/
 ├── reports/
 │   └── hardware-report.md
 │
+├── docs/
+│   ├── hardware-diagram.md
+│   └── troubleshooting.md
+│
 └── screenshots/
 ```
 
 ---
 
-## 🔍 Hardware Inspection
+# 🔍 Hardware Inspection
 
-The hardware information was collected using Windows built-in tools, including:
+The hardware was inspected using Windows diagnostic tools including:
 
-- System Information
+- System Information (msinfo32)
 - Task Manager
 - Windows Settings
+- File Explorer
+- Device Manager
 
-The collected data was analyzed and documented throughout this repository.
-
----
-
-## 🧰 Skills Demonstrated
-
-- Computer Hardware Identification
-- BIOS / UEFI Basics
-- Windows System Analysis
-- Technical Documentation
-- Hardware Reporting
-- PC Component Knowledge
+The collected information was analyzed and documented throughout this repository.
 
 ---
 
-## 📈 Future Improvements
+# 📄 Documentation
 
-Planned additions include:
-
-- Motherboard documentation
-- GPU documentation
-- Hardware troubleshooting scenarios
-- Maintenance procedures
-- Boot error examples
+| Document | Description |
+|----------|-------------|
+| `reports/hardware-report.md` | Complete technical inspection report |
+| `notes/cpu.md` | CPU concepts and analysis |
+| `notes/ram.md` | RAM documentation |
+| `notes/storage.md` | Storage documentation |
+| `notes/bios-uefi.md` | BIOS / UEFI overview |
+| `docs/hardware-diagram.md` | Hardware architecture diagram |
+| `docs/troubleshooting.md` | Troubleshooting scenarios |
 
 ---
 
-## 📄 License
-
-This project is created for educational and portfolio purposes.
-
-## Screenshots
+# 🖼️ Screenshots
 
 ### System Information
 
-Shows the installed processor, RAM capacity, BIOS version, and operating system.
+Displays processor, installed memory, BIOS version, and operating system information.
 
 ![System Information](screenshots/system-info.PNG)
 
 ---
 
-### Task Manager
+### Hardware Information
 
-Displays CPU, memory, and storage utilization.
+Additional hardware details collected during the inspection process.
 
-![Task Manager](screenshots/system-info1.PNG)
+![Hardware Information](screenshots/system-info1.PNG)
 
-## Documentation
+---
 
-- [Hardware Report](reports/hardware-report.md)
-- [CPU Notes](notes/cpu.md)
-- [RAM Notes](notes/ram.md)
-- [Storage Notes](notes/storage.md)
-- [BIOS / UEFI](notes/bios-uefi.md)
-- [Hardware Diagram](docs/hardware-diagram.md)
-- [Troubleshooting Guide](docs/troubleshooting.md)
+# 🛠️ Skills Demonstrated
+
+- Computer Hardware Identification
+- Windows System Diagnostics
+- BIOS / UEFI Analysis
+- Hardware Documentation
+- Technical Reporting
+- Hardware Inspection
+- Computer Architecture
+- IT Support Fundamentals
+- Troubleshooting Basics
+
+---
+
+# ✅ Inspection Checklist
+
+- ✔ CPU identified
+- ✔ RAM verified
+- ✔ Storage inspected
+- ✔ BIOS documented
+- ✔ Windows information collected
+- ✔ Hardware report completed
+- ✔ Technical documentation created
+
+---
+
+# 🚀 Future Improvements
+
+Planned future additions:
+
+- Motherboard documentation
+- GPU analysis
+- Hardware maintenance guide
+- Boot troubleshooting scenarios
+- Device Manager analysis
+- SMART storage health inspection
+
+---
+
+# 📜 License
+
+This repository is intended for educational and portfolio purposes.
+
+---
+
+## 👩‍💻 Author
+
+**Elmira**
+
+IT Portfolio Project | PC Hardware Documentation | 2026
