@@ -100,3 +100,29 @@ Planned additions include:
 ## 📄 License
 
 This project is created for educational and portfolio purposes.
+
+## Screenshots
+
+### System Information
+
+Shows the installed processor, RAM capacity, BIOS version, and operating system.
+
+![System Information](screenshots/system-info.PNG)
+
+---
+
+### Task Manager
+
+Displays CPU, memory, and storage utilization.
+
+![Task Manager](screenshots/system-info1.PNG)
+
+## Documentation
+
+- [Hardware Report](reports/hardware-report.md)
+- [CPU Notes](notes/cpu.md)
+- [RAM Notes](notes/ram.md)
+- [Storage Notes](notes/storage.md)
+- [BIOS / UEFI](notes/bios-uefi.md)
+- [Hardware Diagram](docs/hardware-diagram.md)
+- [Troubleshooting Guide](docs/troubleshooting.md)
